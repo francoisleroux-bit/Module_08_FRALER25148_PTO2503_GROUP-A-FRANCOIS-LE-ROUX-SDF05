@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylesheet" rel="./src/output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Responsive Footer</title>
+</head>
+<body class="bg-[#5f9e8f] text-black">
+    <footer class="py-8 px-6 bg-[#5f9e8f] text-black">
+      <div class="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between lg:items-start gap-y-10 gap-x-10">
+        <div class="lg:w-1/3 w-full">
+          <h2 class="text-xl font-semibold mb-3">Subscribe to our newsletter for updates.</h2>
+          <div class="flex flex-col sm:flex-row items-stretch gap-4 max-w-sm">
+            <input type="email" placeholder="Email Address" class="p-2 px-4 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 text-sm text-black max-w-[250px]"/>
+            <button class="bg-orange-500 text-white px-6 py-2 rounded-md hover:bg-orange-600 text-sm font-semibold whitespace-nowrap">Subscribe</button>
+          </div>
+        </div>
+        <div class="flex flex-row gap-x-36 justify-center lg:ml-auto lg:mr-auto">
+          <div class="w-full sm:w-auto">
+            <h3 class="font-semibold text-base mb-3">Quick Link</h3>
+            <ul class="space-y-1 text-sm">
+              <li><a href="https://www.codespace.co.za/?matchtype=&device=c&keyword=&adgroupid=&utm_campaign=22554361192&utm_source=google&utm_medium=cpc&gad_source=1&gad_campaignid=22550827082&gbraid=0AAAAADKNrQ5L8kAFnTndlJyDKcvfI84S5&gclid=CjwKCAjw6ZTCBhBOEiwAqfwJdwnafBNK2SfWEiDJSKewFnece3qF_JDLJyxOEYy6v-Z_iyGYsk9knBoCdREQAvD_BwE" class="hover:underline">Home</a></li>
+              <li><a href="https://www.codespace.co.za/about/" class="hover:underline">Who We Are</a></li>
+              <li><a href="https://www.codespace.co.za/programs/software-development/" class="hover:underline">Our Philosophy</a></li>
+            </ul>
+          </div>
+          <div class="w-full sm:w-auto">
+            <h3 class="font-semibold text-base mb-3">Technologies</h3>
+            <ul class="space-y-1 text-sm">
+              <li><a href="https://www.google.com/search?q=html&sca_esv=2ffc14dc1ec9f74a&rlz=1C5CHFA_enZA1160ZA1161&sxsrf=AE3TifOwB37THMn0vaRCS5blr2_QOF4Xuw%3A1749368731199&ei=mz9FaMj8C9zqhbIPyJTq6Qs&oq=&gs_lp=Egxnd3Mtd2l6LXNlcnAiACoCCAIyBxAjGCcY6gIyBxAjGCcY6gIyBxAjGCcY6gIyBxAjGCcY6gIyBxAjGCcY6gIyBxAuGCcY6gIyBxAjGCcY6gIyBxAjGCcY6gIyBxAjGCcY6gIyBxAjGCcY6gIyExAAGIAEGEMYtAIYigUY6gLYAQEyExAAGIAEGEMYtAIYigUY6gLYAQEyExAAGIAEGEMYtAIYigUY6gLYAQEyExAAGIAEGEMYtAIYigUY6gLYAQEyExAAGIAEGEMYtAIYigUY6gLYAQEyFhAuGIAEGEMYtAIYyAMYigUY6gLYAQEyFhAuGIAEGEMYtAIYyAMYigUY6gLYAQFI-QhQAFgAcAF4AZABAJgBAKABAKoBALgBAcgBAPgBAZgCAaACB6gCEZgDB_EF58iCsl6X1le6BgYIARABGAGSBwExoAcAsgcAuAcAwgcDMi0xyAcG&sclient=gws-wiz-serp" class="hover:underline">HTML</a></li>
+              <li><a href="https://www.google.com/search?q=css+meaning&rlz=1C5CHFA_enZA1160ZA1161&oq=&gs_lcrp=EgZjaHJvbWUqCQgCECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFEC4YJxjqAjIJCAYQIxgnGOoCMgkIBxAjGCcY6gIyFAgIEAAYQhhDGLQCGOoCGIAEGIoFMhQICRAAGEIYQxi0AhjqAhiABBiKBTIUCAoQABhCGEMYtAIY6gIYgAQYigUyFAgLEAAYQhhDGLQCGOoCGIAEGIoF0gEJMjQ5OWowajE1qAIMsAIB8QVR2JDfuZYAiA&sourceid=chrome&ie=UTF-8" class="hover:underline">CSS</a></li>
+              <li><a href="https://www.google.com/search?q=javascript&sca_esv=2ffc14dc1ec9f74a&rlz=1C5CHFA_enZA1160ZA1161&sxsrf=AE3TifMdTgKvDRGPTXclIwCbicixoitrDg%3A1749368689513&ei=cT9FaMuCH92shbIPyKnc6AY&oq=&gs_lp=Egxnd3Mtd2l6LXNlcnAiACoCCAEyBxAjGCcY6gIyBxAjGCcY6gIyBxAjGCcY6gIyBxAjGCcY6gIyBxAjGCcY6gIyBxAuGCcY6gIyBxAjGCcY6gIyBxAjGCcY6gIyBxAjGCcY6gIyBxAjGCcY6gIyExAAGIAEGEMYtAIYigUY6gLYAQEyExAAGIAEGEMYtAIYigUY6gLYAQEyExAAGIAEGEMYtAIYigUY6gLYAQEyExAAGIAEGEMYtAIYigUY6gLYAQEyExAAGIAEGEMYtAIYigUY6gLYAQEyExAAGIAEGEMYtAIYigUY6gLYAQEyExAAGIAEGEMYtAIYigUY6gLYAQEyExAAGIAEGEMYtAIYigUY6gLYAQEyExAAGIAEGEMYtAIYigUY6gLYAQEyExAAGIAEGEMYtAIYigUY6gLYAQFIoiBQAFgAcAJ4AZABAJgBAKABAKoBALgBAcgBAPgBAZgCAqACD6gCFMICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFmAMK8QWm1Ey9qtipg4gGAZAGCroGBggBEAEYAZIHATKgBwCyBwC4BwDCBwUyLTEuMcgHDQ&sclient=gws-wiz-serp" class="hover:underline">JavaScript</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr class="my-6 border-[#d86943]"/>
+      <div class="max-w-7xl mx-auto">
+        <img
+          src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="Codespace Logo" class="h-7"/>
+      </div>
+    </footer>
+  </body>
+</html>
+      
